@@ -4,6 +4,7 @@
 #include <GL/glut.h>
 #include <math.h>
 #include "globals.h"
+#include "player.h"
 
 typedef struct
 {

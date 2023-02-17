@@ -1,4 +1,6 @@
-#include "header.h"
+#include "include/display.h"
+#include "include/player.h"
+#include "include/level.h"
 
 
 Time T;
@@ -17,7 +19,6 @@ int main(int argc, char* argv[]) {
     glutInitWindowSize(GLSW, GLSH);
 
     glutCreateWindow("");
-    printf("test");
 
     glPointSize(PIXELSCALE);
 
